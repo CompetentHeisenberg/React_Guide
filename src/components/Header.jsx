@@ -6,7 +6,11 @@ function Header() {
   return (
     <header className={header.header}>
       <div className={header.headel}>
-        <Headbutton name="HTML" className={header.headbutt}></Headbutton>
+        <Headbutton
+          name="HTML"
+          className={header.headbutt}
+          link="/html"
+        ></Headbutton>
         <Headbutton name="JS" className={header.headbutt}></Headbutton>
         <img src={logo} alt="logotype" className={header.logo}></img>
         <Headbutton name="React" className={header.headbutt}></Headbutton>

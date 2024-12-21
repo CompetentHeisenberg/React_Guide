@@ -1,56 +1,48 @@
 import React from "react";
 import panel from "../css/panel.module.css";
+import LabelTitle from "./labels/Label_title";
+import TextInf from "./labels/Text_inf";
 function Panel() {
   return (
     <div className={panel.main}>
       <div className={panel.info}>
-        <label className={panel.title}>Theme: Test</label>
+        <LabelTitle
+          className={panel.title}
+          title="Theme: About Project"
+        ></LabelTitle>
         <hr className={panel.cher}></hr>
-        <p className={panel.text}>
-          The rapid advancements in technology over the past few decades have
-          profoundly transformed the way we live, work, and communicate. From
-          the advent of the internet to the proliferation of smartphones, each
-          new innovation has brought with it a series of challenges and
-          opportunities. In the modern world, connectivity is no longer a luxury
-          but a necessity. People rely on digital tools not only for
-          entertainment and social interactions but also for education,
-          healthcare, and even basic communication. For instance, during the
-          global pandemic, millions of people turned to online platforms to
-          continue their education and maintain business operations. Students
-          attended virtual classes, workers embraced remote jobs, and families
-          stayed connected through video calls despite being miles apart.
-          However, the same technological advancements have raised concerns
-          about data privacy, cybersecurity, and the ethical implications of
-          artificial intelligence. Artificial intelligence, in particular, has
-          become a double-edged sword. While it has the potential to
-          revolutionize industries, improve efficiency, and create new
-          possibilities, it also poses risks of job displacement and the misuse
-          of sensitive information. The challenge lies in balancing
-          technological progress with the ethical considerations that come with
-          it. Governments and organizations worldwide are grappling with how to
-          regulate AI and ensure it benefits humanity as a whole. Moreover,
-          technology's impact on mental health cannot be ignored. Social media,
-          while providing a platform for connection and self-expression, has
-          also been linked to issues such as anxiety, depression, and a
-          distorted sense of reality. Many individuals find themselves comparing
-          their lives to the curated, idealized versions of others' lives that
-          they see online. This phenomenon has sparked conversations about
-          digital well-being and the importance of taking breaks from
-          technology. On the other hand, technology has empowered countless
-          individuals to start their own businesses, access knowledge previously
-          out of reach, and raise awareness about social issues. The digital age
-          has democratized information, making it possible for anyone with an
-          internet connection to learn new skills, build communities, and
-          advocate for change. As we look to the future, the role of technology
-          in shaping society will only grow more significant. Innovations like
-          quantum computing, biotechnology, and renewable energy solutions hold
-          the promise of addressing some of the world's most pressing problems,
-          such as climate change, disease prevention, and resource scarcity.
-          However, these advancements also require careful stewardship to ensure
-          they are used responsibly and inclusively. In conclusion, technology
-          is both a tool and a challenge, a source of incredible progress and a
-          reason for caution.
-        </p>
+        <TextInf
+          className={panel.text}
+          text="This is my pet project on GitHub, designed as an educational resource and
+           reference guide for new programmers. Built with React, this project aims to provide
+           a comprehensive learning experience for beginners. It covers various topics, from basic
+           concepts to more advanced techniques, ensuring that new programmers have a solid foundation
+           to build upon.The project is open-source, which means that anyone can contribute to its development.
+           This collaborative approach not only helps improve the project but also provides an opportunity for contributors to learn and grow. By working together, 
+           we can create a valuable resource that benefits the entire programming community.In addition to being
+           a learning tool, this project also serves as a reference guide. New programmers can refer to
+           it whenever they need help or guidance, making it a handy resource for their coding journey.
+           The project is continuously updated with new content and improvements, ensuring that it remains
+           relevant and useful."
+        ></TextInf>
+        <TextInf
+          className={panel.text}
+          text="Feel free to check out the project on GitHub and contribute
+           if you have any ideas or suggestions.
+           Together, we can make this project even better!Feel free to check out the project on GitHub and contribute
+           if you have any ideas or suggestions.
+           Together, we can make this project even better!Feel free to check out the project on GitHub and contribute
+           if you have any ideas or suggestions.
+           Together, we can make this project even better!make this project even better!Feel free to check out the project on GitHub and contribute
+           if you have any ideas or suggestions.
+           Together, we can make this project even bettermake this project even better!Feel free to check out the project on GitHub and contribute
+           if you have any ideas or suggestions.
+           Together, we can make this project even bettermake this project even better!Feel free to check out the project on GitHub and contribute
+           if you have any ideas or suggestions.
+           Together, we can make this project even bettermake this project even better!Feel free to check out the project on GitHub and contribute
+           if you have any ideas or suggestions.
+           Together, we can make this project even better"
+        ></TextInf>
       </div>
     </div>
   );

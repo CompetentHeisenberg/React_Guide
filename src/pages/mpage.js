@@ -3,6 +3,7 @@ import Head from "../components/Header";
 import Left from "../components/Leftpanel";
 import Panel from "../components/Panel";
 import Right from "../components/Rightpanel";
+import Footer from "../components/Footer";
 import style from "../css/mpage.module.css";
 function mainpage() {
   return (
@@ -13,6 +14,7 @@ function mainpage() {
         <Panel></Panel>
         <Right></Right>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

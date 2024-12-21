@@ -1,6 +1,11 @@
 body {
   height: 100%;
   width: 100%;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Скрывает полосу прокрутки для Webkit-браузеров (Chrome, Edge, Safari) */
 }
 
 .start {
@@ -13,4 +18,5 @@ body {
   height: 80%;
   width: 100%;
   display: flex;
+  padding-top: 137px;
 }

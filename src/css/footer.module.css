@@ -1,0 +1,16 @@
+.main {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  background-color: rgb(48, 46, 46);
+  align-items: center;
+  gap: 55%;
+}
+
+.label {
+  font-size: large;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  margin-left: 5%;
+}

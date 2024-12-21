@@ -5,7 +5,7 @@ function Right() {
   return (
     <div className={right.main}>
       <div className={right.title}>
-        <List name="Title"></List>
+        <List name="Navigate"></List>
       </div>
       <hr className={right.cher}></hr>
       <div className={right.title_par}>
@@ -25,6 +25,15 @@ function Right() {
       </div>
       <div className={right.title_par}>
         <List name="Eighths <"></List>
+      </div>
+      <div className={right.title_par}>
+        <List name="Nineths <"></List>
+      </div>
+      <div className={right.title_par}>
+        <List name="Nineths <"></List>
+      </div>
+      <div className={right.title_par}>
+        <List name="Nineths <"></List>
       </div>
       <div className={right.title_par}>
         <List name="Nineths <"></List>
