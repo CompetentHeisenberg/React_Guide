@@ -1,6 +1,43 @@
 header {
-  background-color: red;
+  background: linear-gradient(#3e4697, #2f3990);
   display: flex;
   width: 100%;
-  height: 20vh;
+  height: 20%;
+  margin: auto;
+  justify-content: center;
+  justify-items: center;
+}
+
+.logo {
+  height: 100%;
+  width: 50%;
+}
+
+.headel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.headbutt {
+  width: 70%;
+  height: 60%;
+  margin: auto;
+  outline: none;
+  border-radius: 10%;
+  font-size: large;
+  color: #fff;
+  background-size: 100%;
+  background-color: #3e4798;
+  transition: 2s;
+  border: 3px solid #fff;
+  background-position: left;
+}
+
+.headbutt:hover {
+  background-position: right;
+  border-color: green;
+  background-color: darkblue;
+  color: #fff;
 }
